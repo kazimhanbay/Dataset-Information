@@ -46,4 +46,4 @@ This dataset can be used for training and testing machine learning models for ta
 
 ## 🔗 References
 
-- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): Real-ESRGAN is a practical algorithm for real-world image super-resolution applications. It enhances image resolution and quality using deep learning techniques, making it useful for improving the clarity and detail of SAR images in this dataset.
