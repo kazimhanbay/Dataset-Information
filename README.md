@@ -43,3 +43,7 @@ This dataset can be used for training and testing machine learning models for ta
 - 🚢 Ship detection
 - 🌊 Sea state estimation
 - 🗺️ SAR image segmentation
+
+## 🔗 References
+
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
