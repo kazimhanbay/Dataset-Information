@@ -2,35 +2,45 @@
 
 This dataset contains satellite images processed into 800x800 pixel segments. The dataset aims to aid in the development and evaluation of ship detection algorithms using synthetic aperture radar (SAR) imagery and has been verified by SAR experts.
 
-## 📊 Dataset Description Version 1
+## 📊 Dataset Version 1 | Description
 
 The first version of the dataset is divided into two main categories:
 
-1. **🚢 Ship**: Contains images with various types of ships and includes 10,000 images.
-2. **🌊 Sea**: Contains images of the sea without ships and includes 10,000 images.
+1. **🚢 Ship**: Contains images with various types of ships and includes 10,0021 images.
+2. **🌊 Sea**: Contains images of the sea without ships and includes 13,656 images.
 
 ### Example
-![Ship and Sea Image Dataset](https://github.com/user-attachments/assets/35bd9d26-ff40-493e-a556-dfefe597a971)
+<img src="https://github.com/user-attachments/assets/35bd9d26-ff40-493e-a556-dfefe597a971" alt="Ship and Sea Image Dataset" width="600">
 
-## 📊 Dataset Description Version 2
+### 📥 Download
+You can download the dataset from [DatasetV1](https://drive.google.com/drive/folders/13v51flw7uivqM5h30_bQFW0PUyTV7zsF?usp=drive_link).
+
+## Note: 
+The two categories consist of a total of 23,677 (13,656 Sea - 10,0021 Ship) images.
+
+## 📊 Dataset Version 2 | Description
 
 The second version of the dataset has been processed using real-esrgan and contains categories such as land/ship/sea and ship.
 
 The second version of the dataset is divided into two main categories:
 
-1. **🚢 Ship**: Contains images with various types of ships.
-2. **🌊🚢🏝️ Sea/Ship/Land**: Contains images of the mix (sea, ship, land).
+1. **🚢 Ship**: Contains images with various types of ships and includes 7945 images.
+2. **🌊🚢🏝️ Sea/Ship/Land**: Contains images of the mix (sea, ship, land) and includes 2821 images.
 
 ### Example
-![version2](https://github.com/user-attachments/assets/6e934c9b-fe39-41c5-ab2f-231529682ced)
+<img src="https://github.com/user-attachments/assets/6e934c9b-fe39-41c5-ab2f-231529682ced" alt="Version 2 Dataset" width="600">
 
-Note: The two categories consist of a total of 10,000 images.
+### 📥 Download
+You can download the dataset from [DatasetV2](https://drive.google.com/drive/folders/1uQnPQgt_6ruTGXE-U9jYuxEvraHLb0f8?usp=drive_link).
+
+## Note:  
+The two categories consist of a total of 10,766 (2821 Land/Sea/Ship - 7945 Ship) images.
 
 ## 🖼️ Image Specifications
 
 - **Resolution**: The data were acquired in IW mode.
 - **Size**: Each image segment is 800x800 pixels.
-- **Polarization Types**: The dataset images are provided with VV and VH polarizations.
+- **Polarization Types**: The dataset images are provided with VV polarizations.
 
 ## 📝 Annotations
 
@@ -47,3 +57,5 @@ This dataset can be used for training and testing machine learning models for ta
 ## 🔗 References
 
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): Real-ESRGAN is a practical algorithm for real-world image super-resolution applications. It enhances image resolution and quality using deep learning techniques, making it useful for improving the clarity and detail of SAR images in this dataset.
+- [Copernicus Open Access Hub](https://browser.dataspace.copernicus.eu/?zoom=7&lat=45.83645&lng=10.74463&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE): Provides access to satellite data for Earth observation.
+
