@@ -65,5 +65,7 @@ This dataset can be used for training and testing machine learning models for ta
 - [Copernicus Open Access Hub](https://browser.dataspace.copernicus.eu/?zoom=7&lat=45.83645&lng=10.74463&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE): Provides access to satellite data for Earth observation.
 - [GDAL GitHub Repository](https://github.com/OSGeo/gdal): A powerful library for reading, writing, and transforming geospatial data formats.
 
+- [Conference Paper 1](https://github.com/user-attachments/files/16537768/salzburg.pdf): Ship Classification Based on Gradient and Support Vector Machines
+- [Conference Paper 2](https://github.com/user-attachments/files/16537767/mekke.pdf): SAR Ship Detection Based on Differential Image Analysis and Machine Learning Approach
 
 
