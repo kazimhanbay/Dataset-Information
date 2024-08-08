@@ -9,7 +9,7 @@ You can find the steps for creating a database using the GDAL library in this [G
 
 The first version of the dataset is divided into two main categories:
 
-1. **🚢 Ship**: Contains images with various types of ships and includes 10,0021 images.
+1. **🚢 Ship**: Contains images with various types of ships and includes 10,021 images.
 2. **🌊 Sea**: Contains images of the sea without ships and includes 13,656 images.
 
 ### Example
